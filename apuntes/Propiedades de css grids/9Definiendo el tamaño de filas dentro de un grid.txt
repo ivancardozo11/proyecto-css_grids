@@ -1,0 +1,35 @@
+Definiendo el tamaño de filas dentro de un grid
+
+grid-template-rows:
+
+   Es el manifiento de cuantas filas va a tener nuestro proyecto.
+
+  Tiene la estructura de   :
+  grid-template-rows: repeat(2,200px);
+   
+
+ Ejm
+ 
+    .container {
+      display: grid;
+      grid-template-columns: repeat(7,1fr);
+      grid-template-rows: repeat(2,200px);
+      grid-gap: 5px ;
+      height: 100vh;
+
+    }
+NOTA: Recordar que los templates siempre estan en el container
+
+
+
+Grid-row:
+
+  Tiene la estructura de   :
+  grid-row: 1 / 2;
+
+
+
+
+
+
+

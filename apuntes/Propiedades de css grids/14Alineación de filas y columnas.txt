@@ -1,0 +1,50 @@
+Alineación de filas y columnas
+
+
+Nota:
+
+		Yo no deberia estar teniendo un grid que ocupe 		todo el navegador , porque sino no podria 		moverlo libremente.
+
+
+Para alinear todo mi contenido vamos 
+
+
+Justify-content: 
+
+	Siempre es para el alineado horizontal
+
+	ejm
+
+	Alinearemos un div completo de contenido.
+
+	.container{
+
+	Justify-content: center;
+
+	}
+
+
+	Justify-content: space-around
+
+		Va a añadir un espacio alrededor
+		de cada columna
+
+	Justify-content: space-evenly
+	
+		Va a tomar el espacio disponible
+		de una manera mas homogenea
+
+
+Aling-content:
+
+	Recordar , siempre aling hace referencia a 
+	ordenar de manera vertical
+
+	
+	Recibe atributos:
+
+	start end stretch space-around  space-evenly.
+
+
+
+

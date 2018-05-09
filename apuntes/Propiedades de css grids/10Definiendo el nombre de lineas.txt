@@ -1,0 +1,15 @@
+Definiendo el nombre de lineas
+
+
+Le podemos asignar un nombre a cada una de las lineas , 
+tanto a las horizontales como a las verticales
+
+ejm
+
+
+ grid-template-columns: [inicio] 1fr [linea2] 1fr [linea3] 1fr [destacado-end] 1fr [linea5] 1fr [destacado2-end] 1fr [linea7] 1fr [final];
+
+Si las nombro de forma de columnas me va a tomar las lineas
+horizontales 
+
+Si la nombro en forma de fila las va a tomar en orden vertical

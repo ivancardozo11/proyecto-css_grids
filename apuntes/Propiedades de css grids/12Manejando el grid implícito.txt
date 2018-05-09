@@ -1,0 +1,51 @@
+Manejando el grid implícito
+
+Grid implicito:
+
+Está formado por lo elementos html que no están siendo 
+contemplados por las filas y columnas que tenemos dentro
+de css.
+
+Css grids tiene que asumir algunas cosas cuando las cosas no
+son claras el tiene que saber que hacer con valores por defecto
+
+NOTA:
+Que sea implicita significa que si no hubieramos asignado filas, estas intentarian ocupar todo el espacio disponible del navegador porque todas serian automaticas.
+
+
+grid-auto-flow
+
+	Los grids estan por defectos zeteados en row,
+	es decir : grid-auto-flow: row;
+
+	variaciones:
+
+	grid-auto-flow: column
+
+	Todos los elementos desplazados de mi grid
+	se van a maneras de columnas
+
+grid-auto-column:
+
+	Le podemos asignar un flujo automatico a las 
+	columnas	y decirle que tamaño queremos para 
+	cada una.
+	
+	EJM
+
+	.container{
+
+	grid-auto-flow: column;
+	
+	grid-auto-column: 200px 200px 200px 200px;
+	}
+	
+	me daria 4 columnas de 200px c/u.
+
+grid-auto-rows:
+
+	Tal cual como el ejemplo anterior podemos hacer
+	lo mismo con las filas
+
+	grid-auto-row: 200px 200px 200px 200px;
+

@@ -1,0 +1,43 @@
+Alineación de contenido
+
+
+Justify-items: 
+
+	Nos va a ayudar a hacer el alineado de forma horizontal
+
+		Recibe valores de :
+			Start , end , center , stretch;
+
+			Nota: por defecto viene stretch
+
+	
+	Justify-items: start;
+
+		Me pondria por defecto el contenido hacia el 
+		inicio(hacia la izquierda)
+
+	Justify-items: end;
+
+		Pone todo el contenido a la derecha
+
+	
+
+Aling-items :
+
+	Nos va a ayudar a hacer el alineado de forma vertical.
+
+		Start , end , center , stretch;
+
+
+	Nota: achica el tamaño de la caja de la forma vertical y la 		mueve de la misma manera.
+
+Aling-self:
+
+	Alineate a ti mismo : Start , end , center , stretch;
+
+Justify-self:
+	Justificate a ti mismo: Start , end , center , stretch;
+
+
+De esta manera podemos posicionar nuestros elementos dentro de 
+la grilla

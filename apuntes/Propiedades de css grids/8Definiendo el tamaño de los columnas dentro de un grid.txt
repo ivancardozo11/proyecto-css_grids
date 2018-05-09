@@ -1,0 +1,31 @@
+Definiendo el tamaño de los columnas dentro de un grid
+
+grid-column-start: 1;
+
+Le podemos decir a los elementos desde donde empiezan 
+hasta donde terminan.
+
+Ejm
+
+	.item:nth-of-type(1) {
+      
+      	grid-column-start:1;
+      	grid-column-end: 3;
+    	}
+	
+Grid column:
+
+Se compone de la siguiente manera:
+
+	grid-column: inicio / final;
+
+	Basicamente le estamos diciendo a la columna
+	que tan gruesa va a ser.
+
+Le podemos asignar hasta una seccion completa de la 
+siguiente manera:
+
+.item:nth-of-type(8) {
+      grid-column: 1 /-1;
+    } 
+

@@ -1,0 +1,51 @@
+Definiendo áreas de contenido
+
+
+Nota : Siempre que vamos a dividir contenido tenemos una columna.
+
+Definiendo un area: 
+
+Ejm:
+
+	.container {
+      display: grid;
+      grid-gap: 10px ;
+      grid-template: 100px 1fr 150px / 200px 1fr;
+      height: 100vh;
+      grid-template-areas:
+                            "header header"
+                            "left    contenido"
+                            "footer   footer";
+    }
+
+GRID-TEMPLATE-AREA:
+
+	es como una especie de permiso , entonces yo le permito
+	ocupar un espacio mediante clases. Lo identamos
+	de esa manera como metodo de guia.
+
+    Asignamos las clases correspondientes:
+
+  <section class="container">
+    <div class="item header">      header     </div>
+    <div class="item left">             left           </div>
+    <div class="item contenido">  contenido </div>
+    <div class="item footer">         footer       </div>
+
+  </section>
+
+Por ultimo en la hoja de estilos le digo a mi template cual es cada area:
+
+.header{
+    grid-area: header;
+    }
+    .left{
+      grid-area: left;
+    }
+    .contenido{
+      grid-area: contenido;
+    }
+    .footer{
+      grid-area: footer;
+    }
+

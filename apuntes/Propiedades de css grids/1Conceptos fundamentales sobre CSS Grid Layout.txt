@@ -1,0 +1,41 @@
+Conceptos fundamentales sobre CSS Grid Layout
+
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+Guia de css grid
+
+Grid container: Va a ser el elemento padre
+que va a tener puesto un nuevo tipo de 
+display. (display: grid;).
+
+Funcionará para hacer que se activen los comandos grid
+
+Grid item:
+
+	Son los elementos que estan dentro del display grid , es lo 
+	que manejaremos dentro del grid , tanto filas como 	columnas.
+Grid item: 
+
+	Los sub-item son hijos directos de grid , esto no 
+	es un grid item , es un hijo directo de item.
+
+Grid Line:
+	Son las lineas divisorias de las grillas , horizontales 
+	y verticales
+
+Grid tracks  
+
+	Son espacios entre 2 lineas adyacentes , o mas bien
+	conocidos como filas y columnas
+
+Grid cell 
+	Son los cuadrados que vamos a ver, son espacios entre
+	dos filas adyacentes y 2 columnas adyacentes
+	Nota : Es decir son en si las celdas (Lo que esta encap
+	sulado)
+
+Grid area
+
+	Espacio rodeado por 4 grid lines , se pueden ampliar a N
+

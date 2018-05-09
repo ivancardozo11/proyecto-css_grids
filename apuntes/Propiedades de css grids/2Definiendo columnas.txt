@@ -1,0 +1,45 @@
+Definiendo columnas
+
+
+Creando grid para columnas
+
+	Hay que encerrar a todas las cajas dentro
+	de un contenedor y agregar a los estilos
+	del contenedor un grid
+
+Ejm
+
+<style>
+.container{
+  display: grid;
+}
+</style>
+
+ <title>Columnas</title>
+ </head>
+ <body>
+   <section class="container">
+     <div class="item">contenido #1</div>
+     <div class="item">contenido #2</div>   
+   </section>
+ </body>
+ </html>
+
+
+Crear un template de columnas
+
+	En GRID CONTAINER PONER 
+
+	.container {
+	display: grid;
+	  grid-template-columns: col1de 100px  col2de200px col 	NdeNpx;
+	}
+
+El resultado será: 
+    	  contenido #1   contenido #1  contenido #n
+	  contenido #2   contenido #1  contenido #n
+	  contenido #3   contenido #3  contenido #n
+	  contenido #4   contenido #4  contenido #n
+
+N columnas que yo asigne y por defecto 4 filas .
+
